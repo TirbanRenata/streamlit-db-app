@@ -69,7 +69,7 @@ elif choice == "Login":
 
     # Dashboard – în AFARA if-ului de login
     if 'user' in st.session_state:
-        st.success(f"Bine ai revenit, {user}!")
+        st.success(f"Bine ai revenit, {user}!!!!")
         st.session_state['user'] = user
 
         # Dashboard
